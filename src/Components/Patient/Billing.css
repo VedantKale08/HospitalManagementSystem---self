@@ -1,0 +1,60 @@
+.b-main{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.b-border{
+    border: 2px solid black;
+    padding: 2rem;
+    width: 70%;
+}
+.b-head{
+    display: flex;
+}
+.b-Hname{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.b-dates{
+    flex: 1;
+    text-align: end;
+}
+.b-symptoms{
+    display: block;
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+.b-items{
+    display: flex;
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+.b-item{
+    flex:1
+}
+.b-price{
+    flex:1;
+    text-align: end;
+}
+
+.b-oneItems{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+.b-oneItem{
+    flex:1
+}
+.b-onePrice{
+    flex:1;
+    text-align: end;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

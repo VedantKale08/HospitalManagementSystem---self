@@ -1,0 +1,25 @@
+.h6{
+    margin-top: 1rem;
+}
+.form_outer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+.form{
+    padding: 3rem;
+    min-width: 600px;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+@media screen and (max-width:700px) {
+    .form{
+        min-width:200px
+
+    }
+}

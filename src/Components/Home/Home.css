@@ -1,0 +1,79 @@
+.h-main-img{
+    width: 100%;
+    height: 87vh;
+}
+.h-image-text{
+    position: relative;
+}
+.h-head-text{
+    position: absolute;
+    right: 60%;
+    left: 7%;
+    bottom: 45%;
+}
+.h-h3{
+    font-size :4rem;
+    font-weight: 700;
+    color: #393E46;
+}
+.h-buttonDiv{
+    position: absolute;
+    right: 50%;
+    left: 7%;
+    bottom: 28%;
+}
+.h-button{
+    width:12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #393E46;
+    color: #fff;
+    margin-right: 1rem;
+}
+.h-button:hover{
+    opacity: 0.8;
+}
+.h-button1{
+    width:12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #00ADB5;
+    color: #fff;
+    margin-right: 1rem;
+}
+.h-button1:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width:700px){
+    .h-h3{
+        font-size: 2rem;
+    }
+    .h-button1{
+        margin-top: 1rem;
+    }
+    .h-buttonDiv{
+        bottom: 20%;
+    }
+    .h-button{
+        width: 9rem;
+    }
+    .h-button1{
+        width: 9rem;
+    }
+}
+@media screen and (max-width:1450px) and (min-width:700px) {
+    .h-h3{
+        font-size: 3rem;
+    }
+    .h-head-text{
+        position: absolute;
+        right: 60%;
+        left: 7%;
+        bottom: 35%;
+    }
+    .h-buttonDiv{
+        bottom: 20%;
+    }
+}

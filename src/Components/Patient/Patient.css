@@ -1,0 +1,240 @@
+.h6{
+    margin-top: 1rem;
+}
+.form_outer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+.form{
+    padding: 3rem;
+    min-width: 600px;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.a-main {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+.a-wrapper {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.a-h1 {
+    font-size: 4rem;
+}
+
+.a-buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-button {
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #393E46;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.a-button:hover {
+    opacity: 0.8;
+}
+
+.a-button1 {
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #00ADB5;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.a-button1:hover {
+    opacity: 0.8;
+}
+
+
+.p-main {
+    display: flex;
+    /* padding: 1rem; */
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: #00ADB5;
+    color: #fff;
+    /* height: 88vh; */
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.bars {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 50px;
+
+}
+
+.p-icons {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.p-li {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+}
+.p-li:hover{
+    background-color: #393E46;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0499a0;
+    height: 15rem;
+}
+.main-panel{
+    width: 100%;
+    background-color: #EEEEEE;
+    overflow-x:hidden;
+}
+.form1{
+    padding: 1rem;
+}
+.mainContent{
+    background-color: #0499a0;
+    height: 4rem;
+    /* width: 100%; */
+    padding: 1rem;
+}
+
+.three-boxes{
+    /* padding: 3rem; */
+    display: flex;
+    width: 100%;
+    color: grey;
+}
+.doctor-box{
+    flex: 1;
+    padding: 1rem;
+}
+.patient-box{
+    flex: 1;
+    padding: 1rem;
+}
+.appointment-box{
+    flex: 1;
+    padding: 1rem;
+}
+.p-first{
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+.p-second{
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    
+}
+.p-third{
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+.d-img{
+    font-size: 5rem;
+}
+.recent{
+    display: flex;
+    width: 100%;
+}
+.recentDoctor{
+    flex: 1;
+}
+.recentPatients{
+    flex: 1;
+}
+.r-doctor{
+    padding: 1rem;  
+}
+.r-patients{
+    padding: 1rem;  
+}
+.input{
+    padding: 1rem;
+    text-align: center;
+}
+.searchbar{
+    padding: 10px;
+    width: 40rem;
+    border-radius: 1rem;
+}
+@media screen and (max-width:900px) {
+    .a-buttonDiv {
+        flex-direction: column;
+    }
+
+    .a-button1 {
+        margin-top: 1rem;
+    }
+    .three-boxes{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .main-panel{
+        overflow-x:auto;
+    }
+    .d-img{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .form{
+        min-width:200px
+
+    }
+}

@@ -1,0 +1,36 @@
+.navbar{
+    padding: 0.8rem;
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    background-color: #222831;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.n-a{
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.n-a:hover{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: rgb(175, 174, 174);
+}
+.n-button{
+    width:7rem;
+    height: 2.7rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    border: none;
+    border-radius: 3rem;
+    background-color: #00ADB5;
+    color: #fff;
+    margin-right: 1rem;
+}
+.n-button:hover{
+    opacity: 0.8;
+}
